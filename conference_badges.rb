@@ -20,4 +20,4 @@ def printer(names)
   assign_rooms(names).each{|assignment| puts assignment}
 end
 
-printer("Dustin", "Michael", "Lucy")
+printer(["Dustin", "Michael", "Lucy"])
